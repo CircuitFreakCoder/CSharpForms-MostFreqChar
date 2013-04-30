@@ -10,8 +10,6 @@ namespace mfc
             InitializeComponent();
         }
 
-       
-
         private void buttonOK_Click(object sender, EventArgs e)
         {
             int max = 0;
@@ -30,9 +28,6 @@ namespace mfc
             }
 
             textBoxOutput.Text = textBoxInput.Text[max].ToString();
-
-
-
         }
     }
 }
